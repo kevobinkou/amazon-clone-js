@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/pages/checkout.css">
+</head>
+<body>
+  <header class="checkout-header">
+    <a href="index.html" class="back-link">← Continue shopping</a>
+    <div class="checkout-title">
+      Checkout (<span class="js-item-count">0</span> items)
+    </div>
+  </header>
+
+  <main class="checkout-main">
+    <div class="order-items js-order-items"></div>
+    <div class="order-summary js-order-summary"></div>
+  </main>
+
+  <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>

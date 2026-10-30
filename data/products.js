@@ -9,7 +9,7 @@ export const products = [
   {
     id: 'p2',
     image: 'images/products/backpack.jpg',
-    name: 'Laptop Backpack 15.6"',
+    name: 'Laptop Backpack 15.6-inch',
     rating: { stars: 4, count: 56 },
     priceCents: 250000
   },
