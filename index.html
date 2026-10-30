@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/pages/amazon.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="amazon-header">
+    <div class="header-left">
+      <a href="index.html" class="header-link logo-link">
+        <span class="logo-text">amazon<span class="logo-dot">clone</span></span>
+      </a>
+    </div>
+
+    <div class="header-middle">
+      <input class="search-bar js-search-bar" type="text" placeholder="Search products">
+      <button class="search-button js-search-button">Search</button>
+    </div>
+
+    <div class="header-right">
+      <a class="header-link" href="orders.html">
+        <span class="returns-text">Returns</span>
+        <span class="orders-text">& Orders</span>
+      </a>
+
+      <a class="header-link cart-link" href="checkout.html">
+        <span class="cart-quantity js-cart-quantity">0</span>
+        <span class="cart-text">Cart</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+    <div class="products-grid js-products-grid"></div>
+  </main>
+
+  <!-- JavaScript (ES module) -->
+  <script type="module" src="scripts/amazon.js"></script>
+</body>
+</html>
